@@ -1,0 +1,39 @@
+html{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #2b2d42;
+  color: #edf2f4;
+}
+
+.txt-area{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  background-color: #ef233b94;
+
+}
+textarea{
+  resize: none;
+  width: 20vw;
+  height: 5vh;
+  text-align: center;
+  font-size: 25px;
+  background-color: aliceblue ;
+  color: #2b2d42;
+
+}
+button{
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.658);
+  color: #edf2f4;
+  border: none;
+}
+
+#btn-clear{ 
+  background-color: #ef233c;
+  color: #edf2f4;
+   }
